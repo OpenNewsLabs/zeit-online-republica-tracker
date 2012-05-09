@@ -1,0 +1,212 @@
+html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,
+del,dfn,em,img,ins,kbd,q,samp,
+small,strong,sub,sup,var,
+b,i,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,figure,footer,header,
+hgroup,menu,nav,section,menu,
+time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+article,aside,figure,footer,header,
+hgroup,nav,section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,q {
+  quotes: none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after {
+  content: '';
+  content: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,select {
+  vertical-align: middle;
+}
+body {
+  font: 13px sans-serif;*font-size:small;*font:x-small;
+  line-height: 1.22;
+  color: #222;
+}
+table {
+  font-size: inherit;
+  font: 100%;
+}
+select,input,textarea {
+  font: 99% sans-serif;
+}
+pre,code,kbd,samp {
+  font-family: monospace,sans-serif;
+}
+html {
+  -webkit-font-smoothing: antialiased;
+}
+.hidden {
+  display: none;
+}
+.js .js-hidden {
+  display: none;
+}
+a:link,a:visited {
+  color: #900;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+}
+a:active,a:focus {
+  color: #f00;
+}
+#messagecontainer {
+  background: #f2f2f2;
+  font-family: Arial,Helvetica,sans-serif;
+  border: 1px solid #e0e0e0;
+  margin: 0px;
+}
+#msgheader {
+  color: #222;
+  padding: 6px 10px;
+}
+#msgheader h1 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+#msgheader h2 {
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+  font-weight: 400;
+  padding-bottom: 3px;
+}
+#msglistcontainer {
+  background: #f2f2f2;
+  height: 185px;
+  overflow: hidden;
+}
+#msglist {
+  list-style: none;
+  padding: 0px 10px;
+}
+#msglist li {
+  background: #fff;
+  padding: 6px;
+  margin: 3px 0;
+}
+#msglistcontainer #msglist li:hover {
+  background: #ccc;
+}
+#msglist h3 {
+  font-size: 13px;
+  font-weight: 700;
+}
+#msglist .msgbody {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+}
+.msgtools {
+  background: #f2f2f2;
+  font-family: Arial,Helvetica,sans-serif;
+  padding: 6px 10px;
+  position: relative;
+  zoom: 1;
+}
+.msgtools .inner {
+  border-top: 1px solid #ccc;
+  padding: 6px 0 0 0;
+}
+#pause {
+  background: transparent url("http://images.zeit.de/static/img/wikiwidget_playpause.png") no-repeat 0px -21px;
+  cursor: pointer;
+  display: block;
+  height: 21px;
+  text-indent: -5000em;
+  width: 34px;
+}
+#messagecontainer .paused {
+  background-position: 0 0;
+}
+#widgetizer {
+  color: #900;
+  cursor: pointer;
+  right: 10px;
+  position: absolute;
+  top: 16px;
+}
+#widgetizerwindow {
+  padding: 0px 10px;
+}
+#widgetizerwindow h1,#widgetizerwindow p,#widgetizerwindow div {
+  margin-bottom: 6px;
+}
+#widget_width {
+  width: 50px;
+  text-align: right;
+}
+#widget_code {
+  font-size: 11px;
+  height: 55px;
+  padding: 2px 4px;
+  width: 292px;
+}
+#d_clip_container {
+  position: relative;
+}
+#d_clip_button {
+  background: #fff url("http://images.zeit.de/static/img/wikiwidget_copycode.png") no-repeat 0 0;
+  color: #900;
+  height: 21px;
+  text-indent: -5000em;
+  width: 120px;
+}
+#d_clip_container .copied {
+  background-position: 0 -21px;
+}
